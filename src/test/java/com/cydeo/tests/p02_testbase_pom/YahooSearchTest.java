@@ -26,6 +26,6 @@ public class YahooSearchTest extends TestBase {
         driver.findElement(By.name("p")).sendKeys("selenium" + Keys.ENTER);
         Thread.sleep(1000);
         System.out.println("driver.getTitle() = " + driver.getTitle());
-        assertTrue(  driver.getTitle().startsWith("seleniums"),"Verify search page title is selenium" );
+        assertTrue(  driver.getTitle().startsWith("selenium"),"Verify search page title is selenium" );
     }
 }
