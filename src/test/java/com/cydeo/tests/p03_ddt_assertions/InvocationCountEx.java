@@ -9,4 +9,5 @@ public class InvocationCountEx {
     public void repeatedTest() {
         System.out.println("Test");
     }
+
 }
