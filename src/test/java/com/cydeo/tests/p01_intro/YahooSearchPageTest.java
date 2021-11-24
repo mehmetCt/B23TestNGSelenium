@@ -1,4 +1,4 @@
-package com.cydeo.tests;
+package com.cydeo.tests.p01_intro;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -47,11 +47,12 @@ public class YahooSearchPageTest {
 
         driver.get("https://search.yahoo.com/");
 
-        String expectedTitle = "Yahoo Search - Web Search" ;
+        String expectedTitle = "Yahoo Search - Web Searchs" ;
         String actualTitle = driver.getTitle();
 
         // do static import, so you can do this
         // import static org.junit.jupiter.api.Assertions.*;
+
         Assert.assertEquals(actualTitle,expectedTitle ,"Verify Titles are matching "); ;
 
 

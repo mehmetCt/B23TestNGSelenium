@@ -1,4 +1,4 @@
-package com.cydeo.tests;
+package com.cydeo.tests.p01_intro;
 
 import org.testng.annotations.Test;
 
